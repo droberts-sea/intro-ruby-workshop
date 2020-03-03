@@ -99,11 +99,13 @@ Agenda is a guideline, only hard rule is we'll be done by 12:30
 
 <span style="color: #EF654A">9:00  - Intro</span>
 
-9:20  - HTML Setup
+9:20  - Hello World
 
 9:40  - **Break**
 
-9:50  - Tags and Attributes
+9:50  - Variables and Math
+
+10:10 - Conditionals
 
 10:30 - **Break**
 
@@ -111,13 +113,15 @@ Agenda is a guideline, only hard rule is we'll be done by 12:30
 
 @snap[east span-50 text-left]
 
-10:40 - CSS
+10:40 - Arrays
 
-11:20 - Practice
+11:00 - Hashes
 
-12:00 - Practice Wrap-up
+11:20 - **Break**
 
-12:10 - Deployment
+11:30 - Data Structures
+
+12:10 - Working with Files
 
 12:30 - **Done!**
 
