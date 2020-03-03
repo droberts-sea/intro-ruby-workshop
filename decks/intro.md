@@ -30,7 +30,9 @@ We'll be focusing on the bottom two layers
 
 ## Technical Skills
 
-- Basic HTML and CSS
+- Basic Ruby syntax
+
+- Breaking down a programming problem
 
 - Vocabulary
 
@@ -39,8 +41,6 @@ We'll be focusing on the bottom two layers
 - Debugging
 
 - Googling
-
-- Connections to working in Ruby
 
 ---
 
