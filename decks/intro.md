@@ -42,6 +42,8 @@ We'll be focusing on the bottom two layers
 
 - Googling
 
+Plan: move quickly, focus on big concepts, leave the details for later
+
 ---
 
 
