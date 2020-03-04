@@ -21,3 +21,7 @@
 .reveal .slides .indent {
   margin-left: 1rem;
 }
+
+.reveal .slides ul, .reveal .slides pre {
+  margin-bottom: .8em;
+}

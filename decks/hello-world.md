@@ -104,6 +104,50 @@ Click the green `run` button and your program's output should appear on the righ
 
 ---
 
+## The Ruby Interpreter
+
+Every time we press the `run` button, `repl.it` gives our code to a program called the **Ruby interpreter**
+
+The Ruby interpreter **compiles** our code into a series of instructions the computer can understand
+
+It then **runs** the compiled code
+
+<p class="small">We'll talk more about the Ruby interpreter later</p>
+
+---
+
+## Workflow
+
+@snap[west span-47]
+
+### TODO IMAGE
+
+@snapend
+
+@snap[east span-47 text-left]
+Change `World` to your name
+
+**Predict** how this will affect the output of the program
+
+Run the program and **observe** the results
+@snapend
+
+---
+
+## Following Along
+
+Should you be following along, typing out the code that appears on the screen?
+
+Depends on your style, but probably not
+
+Taking notes is likely more valuable
+
+If I want you to run something, I'll say **predict & observe**
+
+There will be explicit moments to pause and practice
+
+---
+
 ## Workshop Project
 
 I run a brass band, and I've noticed that rehearsals have been pretty empty lately
@@ -153,7 +197,7 @@ Find an easier version of the same problem
 
 **Input:** Attendance data by month for **one** band member
 
-**Output:** Whether or not they attended at least **10** rehearsals
+**Output:** Total number of rehearsals attended
 
 Once we have this working we can start to think about more features
 
@@ -161,11 +205,11 @@ Once we have this working we can start to think about more features
 
 ## Solve By Hand
 
-| Member | Jan | Feb | Mar |
-| ------ | --- | --- | --- |
-| Devin  | 4   | 3   | 5   |
-| Kaida  | 2   | 4   | 2   |
-| Becca  | 3   | 4   | 3   |
+| Member    | Jan | Feb | Mar |
+| --------- | --- | --- | --- |
+| Ada       | 4   | 3   | 5   |
+| Grace     | 2   | 4   | 2   |
+| Katherine | 3   | 4   | 3   |
 
 <br>
 
@@ -173,7 +217,7 @@ Which members have attended at least 10 rehearsals?
 
 How do you know?
 
-<p class="fragment">Becca is an **edge-case** - she has attended exactly 10 rehearsals</p>
+<p class="fragment">Katherine is an **edge-case** - she has attended exactly 10 rehearsals</p>
 
 ---
 
