@@ -8,7 +8,9 @@
 
 ---?include=decks/hello-world.md
 
----?include=decks/variables-and-math.md
+---?include=decks/variables-and-strings.md
+
+---?include=decks/numbers-and-math.md
 
 ---?include=decks/conditionals.md
 
