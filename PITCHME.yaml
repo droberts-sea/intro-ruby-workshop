@@ -24,7 +24,7 @@ theme-margins    : [ "0", "15px" ]
 # Highlight Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : github
+highlight : atom-one-light
 
 #
 # Theme-Override Setting

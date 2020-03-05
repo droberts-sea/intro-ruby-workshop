@@ -247,6 +247,8 @@ mar_attendance = 5
 
 Starting with this data, print the total number of rehearsals attended by this band member
 
+If you have time, upgrade it to get data via `gets.chomp`
+
 ---
 
 ## Band Attendance
