@@ -105,7 +105,43 @@ We call each path the code can take a **branch**, as in "the if branch" and "the
 
 ---
 
+## Data Types
+
+```ruby zoom-15
+result = 2 + 3
+```
+
+What is the **value** of `result`?
+
+What is the **data type** of `result`?
+
+---
+
+## Data Types
+
+```ruby zoom-15
+result = 2 < 3
+```
+
+What is the **value** of `result`?
+
+What is the **data type** of `result`?
+
+---
+
 ## Boolean Values
+
+Ruby includes the values `true` and `false`
+
+<p class="small">Called **Boolean** values, after George Boole</p>
+<br>
+Represents the results of a **comparison**
+
+<p class="small">Like `spring_sales < 40`</p>
+<br>
+Can be stored in a variable like any other value
+
+You don't see them typed out very often, but it's good to know they're there
 
 ---
 
@@ -114,7 +150,7 @@ We call each path the code can take a **branch**, as in "the if branch" and "the
 What if we make a mistake writing our conditional and our code goes down the wrong path?
 
 <p class="small">No error, but bad behavior</p>
-
+<br>
 How can we get more info about what went wrong?
 
 ---
@@ -156,9 +192,20 @@ end
 
 ---
 
-## Common Error
+## Common Mistake
 
-- Single = in condition
+```ruby zoom-15
+puts "Enter username:"
+username = gets.chomp
+
+if username = "alovelace"
+  puts "Welcome back Ada"
+end
+
+puts "Initializing user settings..."
+```
+
+This program always prints `Welcome back Ada`. Why?
 
 ---
 

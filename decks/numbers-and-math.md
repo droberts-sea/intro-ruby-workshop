@@ -186,6 +186,8 @@ It might be a string representing a number, like `"3"`
 
 To convert a string to a number, use the method `.to_i`
 
+**Takeaway:** you can't do math on a `String`
+
 ---
 
 ## Converting Strings
