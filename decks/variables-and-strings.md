@@ -18,7 +18,7 @@ A line of code that does something is called a **statement**
 
 <p class="small">Most lines of our programs will be statements</p>
 
-Statements are made up of a **command** and some **data**
+Statements are made up of an **action** and some **data**
 
 ---
 
@@ -30,7 +30,7 @@ puts "Hello World!"
 
 <br>
 
-**Command:** `puts` - print text to the screen
+**Action:** `puts` - print text to the screen
 
 **Data:** `"Hello World!"` - a **string** of characters
 
@@ -94,7 +94,7 @@ puts message
 puts message
 ```
 
-**Question:** What are the **command** and **data** for the above assignment statement
+**Question:** What are the **action** and **data** for the above assignment statement?
 
 ---
 
@@ -163,15 +163,90 @@ puts "Hello #{name}!"
 
 Take a few minutes to practice what we've covered:
 
-- Variable assignment
-- Printing a variable to the screen
-- String interpolation
+<ul class="small">
+<li>Variable assignment</li>
+<li>Printing a variable to the screen</li>
+<li>String interpolation</li>
+</ul>
 
 Questions to answer:
 
-- Can you store an interpolated string in a variable?
-- Can you use an interpolated string in another interpolation?
-- What happens to the text of an interpolated string when the original variable's value changes?
+<ul class="small">
+<li>Can you store an interpolated string in a variable?</li>
+<li>Can you use an interpolated string in another interpolation?</li>
+<li>What happens to the text of an interpolated string when the original variable's value changes?</li>
+</ul>
+
+---
+
+## Data Types
+
+Every variable in Ruby has a **data type**
+
+```ruby zoom-15
+message = "Hello World!"
+```
+
+<p class="small">The variable `message` has the data type `String`</p>
+
+This is also sometimes called its **class**
+
+```ruby zoom-15
+puts message.class
+# String
+```
+
+---
+
+## Methods
+
+Every data type has related actions called **methods**
+
+For example, the `String` data type has an `upcase` method
+
+We can **call** (run) the method on a variable using a dot (`.`)
+
+```ruby zoom-15
+message = "hello world!"
+puts message.upcase
+# HELLO WORLD!
+```
+
+---
+
+## Return Values
+
+Many methods will **return** a value when they're finished running
+
+**Question:** What does the `upcase` method return?
+
+```ruby zoom-15
+message = "hello world!"
+puts message.upcase
+# HELLO WORLD!
+```
+
+<p class="fragment">**Question:** Can you store the return value in a variable?</p>
+<p class="fragment">**Question:** Did calling `message.upcase` change the original `message`? How could you find out?</p>
+
+---
+
+## User Input
+
+You can get input from the user with the method `gets.chomp`
+
+```ruby zoom-15
+puts "Please enter your name"
+
+name = gets.chomp
+puts "Hello #{name}"
+```
+
+<p class="small">`gets.chomp` isn't attached to a variable, and the syntax is a little weird, but it's still a method</p>
+
+**Question:** What does `gets.chomp` **return**?
+
+<p class="fragment">**Question:** The statement `name = gets.chomp` contains two **actions**! What are they, and what **data** do they take?</p>
 
 ---
 

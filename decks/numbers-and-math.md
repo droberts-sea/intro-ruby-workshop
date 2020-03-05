@@ -135,7 +135,7 @@ total = total + spring_sales
 summer_sales = 35 + 16 + 27
 total = total + summer_sales
 
-puts "total sales: #{total}
+puts "total sales: #{total}"
 ```
 
 ---
@@ -153,8 +153,60 @@ total += spring_sales
 summer_sales = 35 + 16 + 27
 total += summer_sales
 
-puts "total sales: #{total}
+puts "total sales: #{total}"
 ```
+
+---
+
+## `3` and `"3"`
+
+What will the following code print?
+
+```ruby zoom-15
+total = 0
+
+puts "Spring sales:"
+spring_sales = gets.chomp
+total += spring_sales
+
+puts "Summer sales:"
+summer_sales = gets.chomp
+total += summer_sales
+
+puts "total sales: #{total}"
+```
+
+---
+
+## `3` and `"3"`
+
+`gets.chomp` always gives you a `String`
+
+It might be a string representing a number, like `"3"`
+
+To convert a string to a number, use the method `.to_i`
+
+---
+
+## Converting Strings
+
+```ruby zoom-12
+total = 0
+
+puts "Spring sales:"
+input = gets.chomp
+spring_sales = input.to_i
+total += spring_sales
+
+puts "Summer sales:"
+input = gets.chomp
+summer_sales = input.to_i
+total += summer_sales
+
+puts "total sales: #{total}"
+```
+
+**Question:** What does `.to_i` return if you type `word`?
 
 ---
 
@@ -213,3 +265,9 @@ puts "#{name} has attended #{total} rehearsals"
 ```
 
 ---
+
+## Vocab
+
+---
+
+## Review Questions
