@@ -202,16 +202,18 @@ Write a program that uses an array and produces the following output:
 
 ```zoom-15
 Please give me 3 numbers
-First number:
+Number:
 12
-Second number:
+Number:
 5
-Third number:
+Number:
 29
 Presto! 12 + 5 + 29 = 46!
 ```
 
 You'll need to track both the individual numbers and their sum
+
+<p class="small">Keep this program around, we'll come back to it</p>
 
 ---
 
