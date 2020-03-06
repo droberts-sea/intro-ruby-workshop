@@ -79,6 +79,14 @@ else
 end
 ```
 
+<!-- ---
+
+## Pattern: Max
+
+TODO: consider adding this. Could be a 20-30 minute session by itself without serious scaffolding, but is quite valuable for thinking about iteration
+ -->
+
+
 ---
 
 ## `.times` Loops
