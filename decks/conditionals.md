@@ -209,6 +209,40 @@ This program always prints `Welcome back Ada`. Why?
 
 ---
 
+## Band Attendance
+
+```ruby zoom-12
+jan_attendance = 4
+# ...
+
+total = 0
+total += jan_attendance 
+# ...
+puts "#{name} has attended #{total} rehearsals"
+```
+
+Modify the program to print a different message depending on if the member has been to at least 10 rehearsals
+
+---
+
+## Band Attendance
+
+```ruby zoom-12
+attendance_requirement = 10
+jan_attendance = 4
+# ...
+
+if total < attendance_requirement
+  puts "#{name} has attended too few rehearsals (#{total})"
+else
+  puts "#{name} has attended enough rehearsals (#{total})"
+end
+```
+
+**Question:** Why put `attendance_requirement` in a variable?
+
+---
+
 ## Vocab
 
 ---

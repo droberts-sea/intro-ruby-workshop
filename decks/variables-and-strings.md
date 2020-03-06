@@ -10,6 +10,8 @@
 
 ## Learning Goals
 
+<!-- TODO: slide on literals -->
+
 ---
 
 ## Statements
@@ -97,6 +99,24 @@ puts message
 **Question:** What are the **action** and **data** for the above assignment statement?
 
 ---
+
+## Variables
+
+@snap[west span-50]
+You can think of variables like bins on a shelf
+<br>
+Each bin has a label
+<br>
+Each bin holds one thing at a time
+@snapend
+
+@snap[east span-50]
+![](assets/images/storage-bins.jpg)
+@snapend
+
+---
+
+<!-- TODO: consider taking this slide out -->
 
 ## Don't Repeat Yourself
 

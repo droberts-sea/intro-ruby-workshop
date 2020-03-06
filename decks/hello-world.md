@@ -148,6 +148,16 @@ There will be explicit moments to pause and practice
 
 ---
 
+## Workspace Setup
+
+Have two repl.it tabs open
+
+- One for scratch work and practice
+
+- One for the running project we'll be building as we go along
+
+---
+
 ## Workshop Project
 
 I run a brass band, and I've noticed that rehearsals have been pretty empty lately
