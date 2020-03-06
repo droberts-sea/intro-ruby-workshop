@@ -22,6 +22,14 @@
   margin-left: 1rem;
 }
 
-.reveal .slides ul, .reveal .slides pre {
+.reveal .slides ul {
   margin-bottom: .8em;
+}
+
+.reveal .slides pre {
+  margin: 1.5em 0;
+}
+
+.reveal .slides pre code {
+  max-height: 100vh !important;
 }

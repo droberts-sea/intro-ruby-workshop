@@ -17,7 +17,7 @@
 Computers were invented as a tool for doing math quickly and precisely
 
 <p class="small">Specifically **calculations** or "number crunching"</p>
-
+<br>
 Humans are bad at calculating - we make mistakes!
 
 Our job is to **direct** the computer and **check** that we told it to do the right thing
@@ -162,7 +162,7 @@ puts "total sales: #{total}"
 
 What will the following code print?
 
-```ruby zoom-15
+```ruby zoom-12
 total = 0
 
 puts "Spring sales:"
