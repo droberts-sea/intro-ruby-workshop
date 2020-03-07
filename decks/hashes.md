@@ -138,13 +138,32 @@ You may want to reuse parts of your old program
 
 ---
 
-## Scaling Up
+## Vocab: Collections
 
-**Collections** like arrays and hashes, along with **iteration**, are key for more complex programs
+A **collection** is a variable that stores many values
+
+**Arrays** and **Hashes** are collections
+
+<p class="small">There are many other types, but these two are by far the most common</p>
+<br>
+
+Getting comfortable working with collections is a big part of leveling up from novice to intermediate programmer
+
+---
+
+## Vocab: Scaling Up
+
+@snap[west span-60]
+**Collections** and with **iteration** are key for more complex programs
 
 They allow our programs to **handle more data without more code**
 
 We call this idea **scaling up**
+@snapend
+
+@snap[east span-40]
+![](assets/images/ascending-graph.png)
+@snapend
 
 ---
 
