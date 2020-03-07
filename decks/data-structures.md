@@ -21,7 +21,7 @@ Determine whether you would use an array or a hash to store each of these collec
 1. The types of tea you have in your cupboard
 1. Information about a customer
 1. An address
-1. The names of the first 150 pokemon, in order
+1. The names of the first 150 Pokémon, in order
 1. All the meals you serve in your restaurant
 1. Details about a meal served by your restaurant, such as name, price, and allergy info
 1. Details about all the meals your restaurant serves

@@ -22,6 +22,4 @@
 
 ---?include=decks/data-structures.md
 
----?include=decks/files.md
-
 ---?include=decks/conclusion.md
