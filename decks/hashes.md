@@ -1,5 +1,7 @@
 @snap[midpoint span-100]
+
 # Hashes
+
 @snapend
 
 ---
@@ -9,7 +11,6 @@
 ---
 
 ## Learning Goals
-
 
 ---
 
@@ -64,6 +65,7 @@ puts email["subject"]
 # Add a new key-vaue pair
 email["text"] = "Hi Ada..."
 ```
+
 ---
 
 ## A Word on Symbols
@@ -102,6 +104,18 @@ How are arrays and hashes similar? How are they different?
 
 ---
 
+| **Array**                                            | **Hash**                                          |
+| ---------------------------------------------------- | ------------------------------------------------- |
+| Created with `[]`                                    | Created with `{}`                                 |
+| Uses integers for indices                            | Uses strings for keys                             |
+| Indices start from 0 and count up                    | Any string is OK                                  |
+| Any object can be an value                           | Any object can be a value                         |
+| Access values with `[]`                              | Access values with `[]`                           |
+| Add values with `.push`                              | Add key-value pairs `[]`                          |
+| Access via an index that doesn't exist returns `nil` | Access via a key that doesn't exist returns `nil` |
+
+---
+
 ## Hash Iteration
 
 ```ruby zoom-12
@@ -123,7 +137,8 @@ Hashes store a set of key-value pairs, so when you iterate you get two variables
 
 ## Band Attendance
 
-Set the current band attendance program aside for now 
+Set the current band attendance program aside for now
+
 <p class="small">We'll come back to it</p>
 <br>
 Write a program that...

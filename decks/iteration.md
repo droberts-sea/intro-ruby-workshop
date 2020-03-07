@@ -48,6 +48,8 @@ The block will run 3 times
 
 Each time the `flavor` variable will hold a different value from the array
 
+<p class="small">We call `flavor` an **iteration variable**</p>
+
 ---
 
 ## Band Attendance
@@ -79,13 +81,12 @@ else
 end
 ```
 
-<!-- ---
+<!--
 
 ## Pattern: Max
 
 TODO: consider adding this. Could be a 20-30 minute session by itself without serious scaffolding, but is quite valuable for thinking about iteration
  -->
-
 
 ---
 
@@ -104,7 +105,7 @@ target.times do |i|
 end
 ```
 
-**Question:** What goes in the variable `i`?
+**Question:** What goes in the **iteration variable** `i`?
 
 **Question:** What are the first and last numbers printed by this program?
 
@@ -155,13 +156,31 @@ end
 
 ---
 
+## Vocab: Hard-coded
+
+When we use a literal to put our data directly in our code file, we call this **hard-coding** the data
+
+You can also get data by
+
+- Asking the user
+
+- Reading a file
+
+- Downloading it from the internet
+
+- Generating it automatically
+
+---
+
 ## Vocab
 
-| Term      | Definition                                                |
-| --------- | --------------------------------------------------------- |
-| Block     | Code between `do` and `end`, usually run in a special way |
-| Loop      | Block of code that runs many times                        |
-| Iteration | The act of looping                                        |
+| Term               | Definition                                                |
+| ------------------ | --------------------------------------------------------- |
+| Block              | Code between `do` and `end`, usually run in a special way |
+| Loop               | Block of code that runs many times                        |
+| Iteration          | The act of looping                                        |
+| Iteration Variable | A variable supplied to a block while looping              |
+| Hard-coded         | Written as a literal directly in your code                |
 
 ---
 
