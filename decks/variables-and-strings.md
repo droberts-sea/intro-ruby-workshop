@@ -12,6 +12,8 @@
 
 <!-- TODO: slide on literals -->
 
+<!-- TODO: slide on variable names -->
+
 ---
 
 ## Statements

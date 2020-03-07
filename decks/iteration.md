@@ -112,21 +112,46 @@ end
 
 ## Filling an Array
 
-A common use of `.times` is to fill an array with user data
+A common use of `.times` is to fill an array with data
 
-Rewrite your number-adder program from before to take user input in a loop
+```ruby zoom-12
+squares = []
 
-```zoom-15
-Please give me 3 numbers
-Number:
-12
-# ... two more numbers ...
-Presto! 12 + 5 + 29 = 46!
+10.times do |i|
+  squares.push i * i
+end
+
+puts "The first 10 square numbers: #{squares}"
 ```
 
-**Bonus:** allow the user to specify how many numbers
+---
 
-<p class="small">How will you print the last line?</p>
+## Band Attendance
+
+Adjust the band attendance program to take user input in a loop
+
+**Bonus:** allow the user to specify how many months of attendance data to collect
+
+---
+
+## Band Attendance
+
+```ruby zoom-12
+name = "Ada"
+attendance_requirement = 10
+attendance = []
+
+puts "How many months of data?"
+month_count = gets.chomp
+month_count = month_count.to_i
+
+month_count.times do |i|
+  rehearsals_attended = gets.chomp
+  attendance.push rehearsals_attended.to_i
+end
+
+# ... sum attendance, print the results ...
+```
 
 ---
 
