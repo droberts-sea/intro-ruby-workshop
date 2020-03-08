@@ -66,16 +66,6 @@ Computers cannot tell when they've been given the wrong instructions
 
 ---
 
-## Ruby
-
-Ruby is a **programming language** that is...
-
-- **General-purpose:** suitable for all sorts of projects
-
-# TODO
-
----
-
 ## repl.it
 
 Website that allows us to quickly write and run Ruby code in the browser
@@ -156,15 +146,19 @@ Have two repl.it tabs open
 
 - One for the running project we'll be building as we go along
 
+You should have a link to these slides in your email - it might be helpful to have them open in a tab
+
 ---
 
 ## Workshop Project
 
-I run a brass band, and I've noticed that rehearsals have been pretty empty lately
+As a musician, I would like to track my practice hours
 
-The band is too big for me to keep attendance info in my head
+- Know if I've been practicing enough
 
-I would like to write a program to help me track attendance, so that I know who to talk to about making it to rehearsal
+- Reward myself if I have a really good week
+
+I would like to write a program that helps me keep track of this information, so that I can see progress toward goals and compare this week to a typical week
 
 <br>
 
@@ -174,9 +168,9 @@ I would like to write a program to help me track attendance, so that I know who 
 
 ## Ideal Program
 
-**Input:** File containing data about each band member, including rehearsal attendance for each month
+**Input:** File containing daily practice data, including total time and exercises and songs covered, for everyone in my band
 
-**Output:** Summary of each band member's attendance, organized by section, with a note if they've attended less than 2/3 of rehearsals
+**Output:** Summary of this week's practice, progress toward goals
 
 <br>
 
@@ -205,9 +199,9 @@ Find an easier version of the same problem
 
 ## Starting Point
 
-**Input:** Attendance data by month for **one** band member
+**Input:** Number of hours practiced per week for several weeks
 
-**Output:** Total number of rehearsals attended
+**Output:** Comparison of this week's hours to previous weeks
 
 Once we have this working we can start to think about more features
 
@@ -215,19 +209,19 @@ Once we have this working we can start to think about more features
 
 ## Solve By Hand
 
-| Member    | Jan | Feb | Mar |
-| --------- | --- | --- | --- |
-| Ada       | 4   | 3   | 5   |
-| Grace     | 2   | 4   | 2   |
-| Katherine | 3   | 4   | 3   |
+| Member    | Week 1 | Week 2 | Week 3 |
+| --------- | ------ | ------ | ------ |
+| Ada       | 4      | 3      | 5      |
+| Grace     | 2      | 4      | 2      |
+| Katherine | 3      | 5      | 4      |
 
 <br>
 
-Which members have attended at least 10 rehearsals?
+Which members practiced more hours than average in week 3?
 
 How do you know?
 
-<p class="fragment">Katherine is an **edge-case** - she has attended exactly 10 rehearsals</p>
+<p class="fragment">Katherine is an **edge-case** - she had exactly average practice time in week 3</p>
 
 ---
 
