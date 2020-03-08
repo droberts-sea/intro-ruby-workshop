@@ -18,8 +18,8 @@
 
 ---?include=decks/iteration.md
 
----?include=decks/hashes.md
+<!-- ---?include=decks/hashes.md -->
 
----?include=decks/data-structures.md
+<!-- ---?include=decks/data-structures.md -->
 
 ---?include=decks/conclusion.md
