@@ -1,5 +1,7 @@
 @snap[midpoint span-100]
+
 # Numbers and Math
+
 @snapend
 
 ---
@@ -36,6 +38,8 @@ Most programming languages (including Ruby) have two kinds of numbers
 age = 28
 puts "I am #{age} years old"
 ```
+
+**Question:** What do we call the `28` in the above code?
 
 ---
 
@@ -124,7 +128,7 @@ puts average
 
 ## Updating a Variable
 
-Common pattern: repeatedly updating a variable 
+Common pattern: repeatedly updating a variable
 
 ```ruby zoom-15
 total = 0
@@ -184,7 +188,7 @@ puts "total sales: #{total}"
 
 It might be a string representing a number, like `"3"`
 
-To convert a string to a number, use the method `.to_i`
+To **convert** a string to a number, use the method `.to_i`
 
 **Takeaway:** you can't do math on a `String`
 
@@ -236,18 +240,18 @@ What was the problem?
 
 ---
 
-## Band Attendance
+## Practice Tracker
 
 We now have the tools to solve part of our problem
 
 ```ruby zoom-15
 member_name = "Ada"
-jan_attendance = 4
-feb_attendance = 3
-mar_attendance = 5
+week1_hours = 4
+week2_hours = 3
+week3_hours = 5
 ```
 
-Starting with this data, print the total number of rehearsals attended by this band member
+Starting with this data, print the average number of hours practiced per week by this band member
 
 If you have time, upgrade it to get data via `gets.chomp`
 
@@ -257,21 +261,38 @@ If you have time, upgrade it to get data via `gets.chomp`
 
 ```ruby zoom-15
 name = "Ada"
-jan_attendance = 4
-feb_attendance = 3
-mar_attendance = 5
+week1_hours = 4
+week2_hours = 3
+week3_hours = 5
 
 total = 0
-total += jan_attendance 
-total += feb_attendance
-total += mar_attendance
-puts "#{name} has attended #{total} rehearsals"
+total += week1_hours
+total += week2_hours
+total += week3_hours
+
+week_count = 3
+average = total / week_count
+puts "#{name} averages #{average} hours / week"
 ```
 
 ---
 
 ## Vocab
 
+| Term                | Definition                                                    |
+| ------------------- | ------------------------------------------------------------- |
+| Integer             | A whole number, like `3`, `0`, or `-47`                       |
+| Float               | A decimal number, like `9.2` or `-416.38`                     |
+| Truncate            | Drop the decimal after dividing two integers                  |
+| Order of Operations | How Ruby decides which math to do first                       |
+| Type Conversion     | Changing one data type to another, like `String` to `Integer` |
+
 ---
 
 ## Review Questions
+
+- What is `9 / 2`?
+
+- What is `9.0 / 2.0`?
+
+- What is `"9" / 2`?
