@@ -1,5 +1,7 @@
 @snap[midpoint span-100]
+
 # Variables and Strings
+
 @snapend
 
 ---
@@ -52,6 +54,16 @@ The Ruby interpreter starts at the top of the file and executes statements **one
 puts "Hello World!"
 puts "This gets printed too"
 ```
+
+---
+
+## Vocab: Syntax
+
+"What characters do I need to type to make this part of the language work?"
+
+Knowledge that answers this question is called **syntax**
+
+**Question:** What is the syntax of a `puts` statement?
 
 ---
 
@@ -118,21 +130,22 @@ Each bin holds one thing at a time
 
 ---
 
-<!-- TODO: consider taking this slide out -->
+## Vocab: Literal
 
-## Don't Repeat Yourself
+A **literal** is when you type a value directly into your code
 
-Repetition is boring, and leads to **mistakes**
+<p class="small">The code uses **literally** this value</p>
 
-<p class="small">Remember, computers are the ones that are good at repeating things!</p>
+```ruby zoom-15
+# "hello" is a literal
+puts "hello"
 
-**Reuse** parts of your program when possible
+# "world" is also a literal
+message = "world"
+puts message
+```
 
-Write code in a way that is easy to reuse
-
-<br>
-
-Keeping code DRY is a noble goal, but don't let it get in the way of solving the problem!
+Variables and literals are **interchangeable**. Anywhere you can use one you can use the other as well.
 
 ---
 
@@ -140,7 +153,7 @@ Keeping code DRY is a noble goal, but don't let it get in the way of solving the
 
 We can give a variable a new value with another assignment statement
 
-```ruby zoom-20
+```ruby zoom-15
 message = "Hello World!"
 puts message
 
@@ -203,14 +216,14 @@ Questions to answer:
 
 ## Data Types
 
-Every variable in Ruby has a **data type**
+Every value in Ruby has a **data type**
 
 ```ruby zoom-15
 message = "Hello World!"
 ```
 
 <p class="small">The variable `message` has the data type `String`</p>
-
+<br>
 This is also sometimes called its **class**
 
 ```ruby zoom-15
@@ -274,6 +287,31 @@ puts "Hello #{name}"
 
 ## Vocab
 
+| Term      | Definition                                                                         |
+| --------- | ---------------------------------------------------------------------------------- |
+| Syntax    | Specific characters to type to make Ruby do a certain thing                        |
+| Statement | A line of code that does something                                                 |
+| Comment   | A line of code beginning with `#`, ignored by the Ruby interpreter, used for notes |
+| Value     | A piece of data for the program to use                                             |
+| Data Type | The category of data for a value, like `String`                                    |
+
+---
+
+| Term       | Definition                                                      |
+| ---------- | --------------------------------------------------------------- |
+| Literal    | A value typed directly into the code                            |
+| Variable   | A value that is given a name and stored for later               |
+| Assignment | Putting a value into a variable                                 |
+| Method     | A named action the program can take                             |
+| Call       | Running a method                                                |
+| Return     | A method giving a value back to your program when it's finished |
+
 ---
 
 ## Review Questions
+
+- What is the **syntax** for **string interpolation**?
+
+- What are 3 different ways your code can get a value?
+
+- Imagine we learn about a new piece of Ruby. The example code shows how to use it with a **literal**. Can you use it with a **variable** too?
