@@ -99,24 +99,24 @@ Relax, be yourself, learn something
 
 10:00 - Variables + Strings
 
-10:30 - Numbers + Math
-
 11:00 - **Break**
 
 @snapend
 
 @snap[east span-50 text-left]
 
-11:10 - Conditionals
-
-11:30 - Arrays
+11:10 - Numbers + Math
 
 11:50 - **Break**
 
-12:00 - Iteration
+12:00 - Conditionals
 
 12:30 - **Done!**
 
+@snapend
+
+@snap[south text-left span-100]
+If we have time or to review on your own: Arrays and Iteration
 @snapend
 
 ---

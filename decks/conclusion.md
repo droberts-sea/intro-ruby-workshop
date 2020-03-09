@@ -1,7 +1,5 @@
 @snap[midpoint span-100]
-
 # Conclusion
-
 @snapend
 
 ---
@@ -51,4 +49,4 @@ Practice with **intent**
 
 Get someone's contact info, meet up to work together
 
-Application opens **March 9** (Monday)
+Application is open!
