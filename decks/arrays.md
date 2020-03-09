@@ -1,7 +1,5 @@
 @snap[midpoint span-100]
-
-# Arrays
-
+# Supplemental: Arrays
 @snapend
 
 ---
@@ -12,6 +10,13 @@
 
 ## Learning Goals
 
+By the end of this module, students will be able to...
+
+- **Describe** the Ruby syntax for an array
+- **Use** arrays to store lists of values
+- **Use** methods that require arguments
+- **Define** the following terms: array, index, out of bounds, `nil`, argument
+
 ---
 
 ## Motivation
@@ -19,18 +24,16 @@
 @snap[west span-60]
 
 ```ruby zoom-12
-attendance_requirement = 10
 name = "Ada"
-jan_attendance = 4
-feb_attendance = 3
-mar_attendance = 5
+week1_hours = 4
+week2_hours = 3
+week3_hours = 5
 
 total = 0
-total += jan_attendance
-total += feb_attendance
-total += mar_attendance
+total += week1_hours
+total += week2_hours
+total += week3_hours
 
-if total < attendance_requirement
 # ...
 ```
 
@@ -41,7 +44,7 @@ This code could be better
 
 Lots of **repetition**
 
-What if we want to track **12 months** of attendance?
+What if we want to track **12 weeks** of attendance?
 
 Using separate variables **doesn't scale**
 @snapend
@@ -119,6 +122,31 @@ puts "Flavor at index #{index}: #{pie_flavors[index]}"
 ```
 
 **Question:** What will this program print?
+
+---
+
+## Practice
+
+Write a program that...
+
+- Creates an array containing two numbers
+
+- Adds a third number to the end of the array (what is its index?)
+
+- Adds the three numbers in the array together and prints the result to the screen
+
+---
+
+## Practice
+
+```ruby zoom-12
+numbers = [12, 5]
+numbers[2] = 29
+
+sum = numbers[0] + numbers[1] + numbers[2]
+
+puts "the sum is #{sum}"
+```
 
 ---
 
@@ -266,3 +294,9 @@ puts "flavor 3 is nil: #{pie_flavors[3].nil?}" # true
 ---
 
 ## Review Questions
+
+- What is the syntax for an **array literal**
+
+- What are two ways to add a value to the end of an array?
+
+- What is `nil`, and how can you tell that you have it?
