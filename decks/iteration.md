@@ -1,7 +1,5 @@
 @snap[midpoint span-100]
-
-# Iteration
-
+# Supplemental: Iteration
 @snapend
 
 ---
@@ -11,6 +9,10 @@
 ---
 
 ## Learning Goals
+
+- **Use** an `.each` loop to iterate through an array
+- **Use** a `.times` loop to iterate without an array
+- **Define** the following terms: block, loop, iteration, iteration variable, hard-coded  
 
 ---
 
@@ -52,41 +54,13 @@ Each time the `flavor` variable will hold a different value from the array
 
 ---
 
-## Band Attendance
+## Practice Tracker
 
-Convert the band attendance program to use an array instead of separate variables
+Convert the practice tracker program to use an array instead of separate variables
 
-For now, hard-code attendance numbers into the array literal
+For now, hard-code practice hours into the array literal
 
-Calculate total rehearsal attendance using a loop
-
----
-
-## Band Attendance
-
-```ruby zoom-12
-name = "Ada"
-attendance = [4, 3, 2]
-attendance_requirement = 10
-
-total = 0
-attendance.each do |month|
-  total += month
-end
-
-if total < attendance_requirement
-  puts "#{name} has attended too few rehearsals (#{total})"
-else
-  puts "#{name} has attended enough rehearsals (#{total})"
-end
-```
-
-<!--
-
-## Pattern: Max
-
-TODO: consider adding this. Could be a 20-30 minute session by itself without serious scaffolding, but is quite valuable for thinking about iteration
- -->
+Calculate total practice hours using a loop
 
 ---
 
@@ -127,31 +101,30 @@ puts "The first 10 square numbers: #{squares}"
 
 ---
 
-## Band Attendance
+## Practice Tracker
 
-Adjust the band attendance program to take user input in a loop
+Adjust the practice tracker program to take user input in a loop
 
-**Bonus:** allow the user to specify how many months of attendance data to collect
+**Bonus:** allow the user to specify how many weeks of practice data to collect
 
 ---
 
-## Band Attendance
+## Practice Tracker
 
 ```ruby zoom-12
 name = "Ada"
-attendance_requirement = 10
-attendance = []
+practice_log = []
 
-puts "How many months of data?"
-month_count = gets.chomp
-month_count = month_count.to_i
+puts "How many weeks of data?"
+week_count = gets.chomp
+week_count = week_count.to_i
 
-month_count.times do |i|
-  rehearsals_attended = gets.chomp
-  attendance.push rehearsals_attended.to_i
+week_count.times do |i|
+  hours_practiced = gets.chomp
+  practice_log.push hours_practiced.to_i
 end
 
-# ... sum attendance, print the results ...
+# ... sum, average, print the results ...
 ```
 
 ---
@@ -185,3 +158,19 @@ You can also get data by
 ---
 
 ## Review Questions
+
+- What is the syntax for an `.each` loop?
+
+- What are two ways we've seen to get data into your program?
+
+- What will the following program print?
+
+```ruby zoom-15
+puts "before"
+
+[].each do |value|
+  puts "inside"
+end
+
+puts "after"
+```
