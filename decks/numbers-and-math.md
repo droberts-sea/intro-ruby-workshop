@@ -12,6 +12,14 @@
 
 ## Learning Goals
 
+By the end of this module, students will be able to...
+
+- **Describe and compare** Ruby's two numeric datatypes: Integer and Float
+- **Use** arithmetic operators to do math in a Ruby program
+- **Use** update operators to update a variable
+- **Convert** Strings to Integers
+- **Define** the following terms: integer, float, truncate, order of operations, type conversion 
+
 ---
 
 ## Why Math?
@@ -257,7 +265,7 @@ If you have time, upgrade it to get data via `gets.chomp`
 
 ---
 
-## Band Attendance
+## Practice Tracker
 
 ```ruby zoom-15
 name = "Ada"

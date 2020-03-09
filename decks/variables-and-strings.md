@@ -1,7 +1,5 @@
 @snap[midpoint span-100]
-
 # Variables and Strings
-
 @snapend
 
 ---
@@ -12,9 +10,13 @@
 
 ## Learning Goals
 
-<!-- TODO: slide on literals -->
+By the end of this module, students will be able to...
 
-<!-- TODO: slide on variable names -->
+- **Describe** how the Ruby interpreter runs a program
+- **Use** literals to supply values to a program
+- **Use** variables to store values
+- **Describe** the syntax for calling a method
+- **Define** the following terms: syntax, statement, comment, value, data type, literal, variable, assignment, method, call, return
 
 ---
 
@@ -77,6 +79,8 @@ These are called **comments**, and are used to write notes
 # Traditional first program
 puts "Hello World!"
 ```
+
+If you select some code in `repl.it`, you can turn it into a comment by pressing `cmd+/`
 
 ---
 
@@ -146,6 +150,16 @@ puts message
 ```
 
 Variables and literals are **interchangeable**. Anywhere you can use one you can use the other as well.
+
+---
+
+## Vocab: Value
+
+A **value** is one piece of data used by a program
+
+Anything you could print to the screen is a value
+
+So far, our program can get values from variables and literals
 
 ---
 

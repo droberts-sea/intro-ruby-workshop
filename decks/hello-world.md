@@ -14,10 +14,10 @@
 
 By the end of this module, students will be able to...
 
-- Use repl.it to run Ruby code in the browser
-- Compare human skills and computer skills
-- Describe the steps to breaking down a programming problem
-- Describe the running problem for this workshop
+- **Use** repl.it to run Ruby code in the browser
+- **Compare** human skills and computer skills
+- **Describe** the steps to breaking down a programming problem
+- **Describe** the running problem for this workshop
 
 ---
 

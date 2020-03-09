@@ -12,6 +12,13 @@
 
 ## Learning Goals
 
+By the end of this module, students will be able to...
+
+- **Use** conditionals to allow programs to behave differently for different data
+- **List** the different relational operators
+- **Describe** debugging techniques for complex programs
+- **Define** the following terms: conditional, inequality, Boolean, branch
+
 ---
 
 ## Conditionals
@@ -209,7 +216,35 @@ This program always prints `Welcome back Ada`. Why?
 
 ---
 
-## Band Attendance
+## Conditional Syntax
+
+@snap[west span-50]
+```ruby zoom-12
+if value relation value
+  statement
+  more statements
+
+else # optional
+  statement(s)
+end
+```
+@snapend
+
+@snap[east span-50 text-left]
+```ruby zoom-12
+if spring_sales > target
+  puts "Met the target!"
+  party_points += 1
+
+else
+  puts "Maybe next time"
+end
+```
+@snapend
+
+---
+
+## Practice Tracker
 
 ```ruby zoom-12
 week1_hours = 4
@@ -225,14 +260,14 @@ Modify the program to print a different message depending on if the last week's 
 
 ---
 
-## Band Attendance
+## Practice Tracker
 
 ```ruby zoom-12
 week1_hours = 4
 # ...
 
 puts "#{name} averages #{average} hours / week"
-if week3_hours < average
+if week3_hours > average
   puts "Congrats! Last week they practiced more than average!"
 else
   puts "Last week they practiced less than average."
@@ -257,3 +292,5 @@ Branch | The code inside each side of an if/else conditional
 - What is the syntax of an if/else conditional?
 
 - What are the two boolean values?
+
+- How can you get more information about a program that is misbehaving?
