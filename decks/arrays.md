@@ -1,10 +1,6 @@
 @snap[midpoint span-100]
-# Supplemental: Arrays
+# Supplement: Arrays
 @snapend
-
----
-
-# TODO Agenda
 
 ---
 

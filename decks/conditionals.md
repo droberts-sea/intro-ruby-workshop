@@ -6,7 +6,33 @@
 
 ---
 
-# TODO Agenda
+## Agenda
+
+@snap[west span-50]
+
+9:00  - Intro
+
+9:20  - Hello World
+
+9:50  - **Break**
+
+10:00 - Variables + Strings
+
+11:00 - **Break**
+
+@snapend
+
+@snap[east span-50 text-left]
+
+11:10 - Numbers + Math
+
+11:50 - **Break**
+
+<span style="color: #EF654A">12:00 - Conditionals</span>
+
+12:30 - **Done!**
+
+@snapend
 
 ---
 
