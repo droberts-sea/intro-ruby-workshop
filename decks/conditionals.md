@@ -212,39 +212,48 @@ This program always prints `Welcome back Ada`. Why?
 ## Band Attendance
 
 ```ruby zoom-12
-jan_attendance = 4
+week1_hours = 4
 # ...
 
 total = 0
-total += jan_attendance 
+total += week1_hours
 # ...
-puts "#{name} has attended #{total} rehearsals"
+puts "#{name} averages #{average} hours / week"
 ```
 
-Modify the program to print a different message depending on if the member has been to at least 10 rehearsals
+Modify the program to print a different message depending on if the last week's practice was greater than the average
 
 ---
 
 ## Band Attendance
 
 ```ruby zoom-12
-attendance_requirement = 10
-jan_attendance = 4
+week1_hours = 4
 # ...
 
-if total < attendance_requirement
-  puts "#{name} has attended too few rehearsals (#{total})"
+puts "#{name} averages #{average} hours / week"
+if week3_hours < average
+  puts "Congrats! Last week they practiced more than average!"
 else
-  puts "#{name} has attended enough rehearsals (#{total})"
+  puts "Last week they practiced less than average."
 end
 ```
-
-**Question:** Why put `attendance_requirement` in a variable?
 
 ---
 
 ## Vocab
 
+Term | Definition
+--- | ---
+Conditional | A code structure that allows the program to behave differently with different data
+Inequality | A comparison between two values, like `average < 7`
+Boolean | Data type representing the value of an inequality: `true` or `false`
+Branch | The code inside each side of an if/else conditional
+
 ---
 
 ## Review Questions
+
+- What is the syntax of an if/else conditional?
+
+- What are the two boolean values?
