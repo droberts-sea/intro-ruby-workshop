@@ -214,7 +214,7 @@ puts "spring_sales is #{spring_sales}"
 puts "sales_target is #{sales_target}"
 
 comparison = spring_sales > sales_target
-puts "comparison result is ${comparison}"
+puts "comparison result is #{comparison}"
 if comparison
   # ...
 end
