@@ -23,7 +23,7 @@
 I hope that you...
 
 <ul class="small">
-<li>Learned something about **web development**</li>
+<li>Learned something about **Ruby development**</li>
 <li>Learned something about **how Ada operates**</li>
 <li>Feel **empowered** and **motivated** to practice on your own</li>
 <li>**Enjoyed yourself**</li>
