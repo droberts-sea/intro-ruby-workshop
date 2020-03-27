@@ -134,19 +134,13 @@ It then **runs** the compiled code
 
 ## Workflow
 
-@snap[west span-47]
-
-### TODO IMAGE
-
-@snapend
-
-@snap[east span-47 text-left]
 Change `World` to your name
 
 **Predict** how this will affect the output of the program
 
 Run the program and **observe** the results
-@snapend
+
+**Making a prediction is important** - it allows you to improve your mental model of how Ruby works
 
 ---
 

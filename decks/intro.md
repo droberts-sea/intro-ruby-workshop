@@ -6,6 +6,18 @@
 
 ---
 
+## Zoom Meeting
+
+Click on "participants" to open a side window
+
+Should contain buttons for "raise hand", "yes", "no"
+
+Everyone raise your hand and respond "no" now
+
+<p class="fragment">Now lower your hand and clear your response</p>
+
+---
+
 ## Objectives
 
 - Boost your **technical skills** and help your Ada application
@@ -35,8 +47,6 @@ We'll be focusing on the bottom two layers
 - Breaking down a programming problem
 
 - Vocabulary
-
-- Setup / "yak-shaving"
 
 - Debugging
 
@@ -85,9 +95,11 @@ Relax, be yourself, learn something
 
 ---
 
-## Agenda
+@snap[north text-left span-100]
+## Rough Agenda
 
-<!-- This agenda is a guideline, only hard rule is we'll be done by 12:30 -->
+This agenda is a guideline. We will be done by 12:30!
+@snapend
 
 @snap[west span-50]
 
@@ -138,9 +150,11 @@ If we have time or to review on your own: Arrays and Iteration
 
 ---
 
-## Who are You?
+## Our Volunteers
 
 - Name, pronouns
+
+- Cohort
 
 - Where you're from
 
@@ -148,11 +162,9 @@ If we have time or to review on your own: Arrays and Iteration
 
 ---
 
-## Our Volunteers
+## Who are You?
 
 - Name, pronouns
-
-- Cohort
 
 - Where you're from
 

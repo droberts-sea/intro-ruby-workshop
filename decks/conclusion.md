@@ -23,7 +23,7 @@
 I hope that you...
 
 <ul class="small">
-<li>Learned something about **web development**</li>
+<li>Learned something about **Ruby development**</li>
 <li>Learned something about **how Ada operates**</li>
 <li>Feel **empowered** and **motivated** to practice on your own</li>
 <li>**Enjoyed yourself**</li>
@@ -47,6 +47,6 @@ Practice with **intent**
 
 <div class="indent"><p>**_"Today I want to get better at reading error messages"_**</p></div>
 
-Get someone's contact info, meet up to work together
+Get someone's contact info, meet up virtually to work together
 
 Application is open!
