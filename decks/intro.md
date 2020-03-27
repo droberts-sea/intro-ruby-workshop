@@ -18,6 +18,18 @@ Everyone raise your hand and respond "no" now
 
 ---
 
+## Zoom Meeting - Chat
+
+I'll use the chat to get a quick read on your understanding
+
+If I ask a question, everyone drop an answer in the chat
+
+<p class="small">It will be silly and messy and that's fine</p>
+
+Wrong answers give me the best information!
+
+---
+
 ## Objectives
 
 - Boost your **technical skills** and help your Ada application
